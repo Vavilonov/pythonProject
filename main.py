@@ -1,4 +1,5 @@
 import telebot
+zalupa
 
 token = "5785032666:AAHmweiukEUklqPhvcEjFw-q4IGZvJiehNU"
 
