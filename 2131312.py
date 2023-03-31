@@ -12,7 +12,6 @@ soup = BeautifulSoup(page.content, "html.parser")
 post = soup.find("здесь атрибут", class_="здесь класс", id=True)
 post_id = post["id"]
 print(post_id)
-# илюша это переменные которые ты выводишь через бота
 balls = post.find("a", class_="").text.strip()
 location = post.find("div", class_="").text.strip()
 fak = post.find("a", class_="", href=True)["href"].strip()
